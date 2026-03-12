@@ -1,0 +1,25 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+*/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+
+# Dossiers inutiles
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Batch files (si tu veux les garder hors GitHub)
+# *.bat
