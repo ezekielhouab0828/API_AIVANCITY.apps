@@ -7,15 +7,15 @@ import streamlit as st
 def get_connection():
     try:
         return mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="Jeandedieu@2808",  # adapte si besoin
-            database="gestion_de_formations"
+            host=st.secrets["MYSQL_HOST"],
+            user=st.secrets["MYSQL_USER"],
+            password=st.secrets["MYSQL_PASSWORD"],
+            database=st.secrets["MYSQL_DATABASE"],
+            port=st.secrets["MYSQL_PORT"]
         )
     except mysql.connector.Error as e:
         st.error(f"Erreur de connexion MySQL : {e}")
         return None
-
 # ---------------------------------------------------------
 # SELECT MULTIPLE LIGNES
 # ---------------------------------------------------------
