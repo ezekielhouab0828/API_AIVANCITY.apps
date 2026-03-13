@@ -16,7 +16,7 @@ st.markdown(
 
 st.markdown('<div class="centered">', unsafe_allow_html=True)
 
-st.markdown("## ✨ Bienvenue dans la Ezekiel Database")
+st.markdown("## ✨ Bienvenue dans la AIvancity Database")
 st.markdown("### Votre espace de gestion des formations, sessions et inscrits")
 st.markdown("Veuillez entrer vos identifiants pour accéder à votre tableau de bord.")
 st.markdown("---")
